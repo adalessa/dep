@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CreateProductsTable	/Users/aribel/code/dep/database/migrations/2020_02_12_212856_create_products_table.php	/^class CreateProductsTable extends Migration$/;"	c
+CreateUsersTable	/Users/aribel/code/dep/database/migrations/2014_10_12_000000_create_users_table.php	/^class CreateUsersTable extends Migration$/;"	c
+ExampleTest	/Users/aribel/code/dep/tests/Feature/ExampleTest.php	/^class ExampleTest extends TestCase$/;"	c
+ProductoController	/Users/aribel/code/dep/app/Http/Controllers/ProductoController.php	/^class ProductoController extends Controller$/;"	c
+SarazaController	/Users/aribel/code/dep/app/Http/Controllers/SarazaController.php	/^class SarazaController extends Controller$/;"	c
+create	/Users/aribel/code/dep/app/Http/Controllers/ProductoController.php	/^    public function create()$/;"	f
+down	/Users/aribel/code/dep/database/migrations/2014_10_12_000000_create_users_table.php	/^    public function down()$/;"	f
+down	/Users/aribel/code/dep/database/migrations/2020_02_12_212856_create_products_table.php	/^    public function down()$/;"	f
+index	/Users/aribel/code/dep/app/Http/Controllers/ProductoController.php	/^    public function index()$/;"	f
+it_some	/Users/aribel/code/dep/tests/Feature/ExampleTest.php	/^    public function it_some()$/;"	f
+mostrar	/Users/aribel/code/dep/app/Http/Controllers/SarazaController.php	/^    public function mostrar()$/;"	f
+store	/Users/aribel/code/dep/app/Http/Controllers/ProductoController.php	/^    public function store(Request $request)$/;"	f
+testBasicTest	/Users/aribel/code/dep/tests/Feature/ExampleTest.php	/^    public function testBasicTest()$/;"	f
+up	/Users/aribel/code/dep/database/migrations/2014_10_12_000000_create_users_table.php	/^    public function up()$/;"	f
+up	/Users/aribel/code/dep/database/migrations/2020_02_12_212856_create_products_table.php	/^    public function up()$/;"	f
