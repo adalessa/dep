@@ -21,6 +21,7 @@ class CreateProductsTable extends Migration
             $table->date('fecha_vencimiento');
             $table->integer('stock');
             $table->boolean('active');
+            $table->bigInteger('categoria_id');
             $table->timestamps();
         });
     }

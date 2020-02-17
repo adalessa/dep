@@ -11,14 +11,14 @@
 |
 */
 
-use App\Http\Controllers\ProductoController;
-
 Route::get('/', function () {
     return view('welcome');
 });
 
 Route::get('/saraza', 'SarazaController@mostrar');
 
-Route::get('/productos', [ProductoController::class, 'index']);
-Route::post('/productos', [ProductoController::class, 'store']);
-Route::get('/productos/create', [ProductoController::class, 'create']);
+Route::resource('productos', 'ProductoController');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

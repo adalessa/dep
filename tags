@@ -6,16 +6,30 @@
 !_TAG_PROGRAM_VERSION	5.8	//
 CreateProductsTable	/Users/aribel/code/dep/database/migrations/2020_02_12_212856_create_products_table.php	/^class CreateProductsTable extends Migration$/;"	c
 CreateUsersTable	/Users/aribel/code/dep/database/migrations/2014_10_12_000000_create_users_table.php	/^class CreateUsersTable extends Migration$/;"	c
+DeskSale	/Users/aribel/code/dep/app/DeskSale.php	/^class DeskSale$/;"	c
 ExampleTest	/Users/aribel/code/dep/tests/Feature/ExampleTest.php	/^class ExampleTest extends TestCase$/;"	c
+Item	/Users/aribel/code/dep/app/Item.php	/^class Item$/;"	c
 ProductoController	/Users/aribel/code/dep/app/Http/Controllers/ProductoController.php	/^class ProductoController extends Controller$/;"	c
 SarazaController	/Users/aribel/code/dep/app/Http/Controllers/SarazaController.php	/^class SarazaController extends Controller$/;"	c
+__construct	/Users/aribel/code/dep/app/DeskSale.php	/^    public function __construct()$/;"	f
+__construct	/Users/aribel/code/dep/app/Item.php	/^    public function __construct(Product $product, int $quantity)$/;"	f
+__construct	/Users/aribel/code/dep/app/Item.php	/^    public function __construct(Product $product, int $quantity, ?int $price = null)$/;"	f
+__construct	/Users/aribel/code/dep/app/Item.php	/^    public function __construct(Product $product, int $quantity, ?int $price)$/;"	f
+addItem	/Users/aribel/code/dep/app/DeskSale.php	/^    public function addItem()$/;"	f
+addItem	/Users/aribel/code/dep/app/DeskSale.php	/^    public function addItem(Item $item)$/;"	f
+confirm	/Users/aribel/code/dep/app/DeskSale.php	/^    public function confirm()$/;"	f
 create	/Users/aribel/code/dep/app/Http/Controllers/ProductoController.php	/^    public function create()$/;"	f
 down	/Users/aribel/code/dep/database/migrations/2014_10_12_000000_create_users_table.php	/^    public function down()$/;"	f
 down	/Users/aribel/code/dep/database/migrations/2020_02_12_212856_create_products_table.php	/^    public function down()$/;"	f
 index	/Users/aribel/code/dep/app/Http/Controllers/ProductoController.php	/^    public function index()$/;"	f
+it_	/Users/aribel/code/dep/tests/Feature/ExampleTest.php	/^    public function it_()$/;"	f
+it_cannot_add_items_after_is_confirmed	/Users/aribel/code/dep/tests/Feature/ExampleTest.php	/^    public function it_cannot_add_items_after_is_confirmed()$/;"	f
 it_some	/Users/aribel/code/dep/tests/Feature/ExampleTest.php	/^    public function it_some()$/;"	f
+items	/Users/aribel/code/dep/app/DeskSale.php	/^    public function items()$/;"	f
 mostrar	/Users/aribel/code/dep/app/Http/Controllers/SarazaController.php	/^    public function mostrar()$/;"	f
+price	/Users/aribel/code/dep/app/Item.php	/^    public function price()$/;"	f
 store	/Users/aribel/code/dep/app/Http/Controllers/ProductoController.php	/^    public function store(Request $request)$/;"	f
 testBasicTest	/Users/aribel/code/dep/tests/Feature/ExampleTest.php	/^    public function testBasicTest()$/;"	f
+total	/Users/aribel/code/dep/app/DeskSale.php	/^    public function total()$/;"	f
 up	/Users/aribel/code/dep/database/migrations/2014_10_12_000000_create_users_table.php	/^    public function up()$/;"	f
 up	/Users/aribel/code/dep/database/migrations/2020_02_12_212856_create_products_table.php	/^    public function up()$/;"	f
